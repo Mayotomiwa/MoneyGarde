@@ -1,0 +1,15 @@
+.name {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: #00008B ;
+}
+
+.body-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1rem;
+  align-items: flex-start;
+}
+.card {
+  padding: 2em;
+}
